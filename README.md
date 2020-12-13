@@ -54,7 +54,7 @@ improvements. The remaining punch list for the release is roughly:
 I have submitted the main paper describing t-digest to RSS Series B 
 and will be preparing a more implementation-oriented paper intended 
 for submission to the Journal of Statistical Software. Potential 
-co-authors would
+co-authors who
 could accelerate these submissions are encouraged to speak up! In 
 the mean time, an 
 [archived pre-print of the paper is available](https://arxiv.org/abs/1902.04023). 
@@ -212,11 +212,12 @@ Implementations in Other Languages
 The t-digest algorithm has been ported to other languages:
  - Python: [tdigest](https://github.com/CamDavidsonPilon/tdigest)
  - Go: [github.com/spenczar/tdigest](https://github.com/spenczar/tdigest) [https://github.com/influxdata/tdigest](https://github.com/influxdata/tdigest)
- - Javascript: [tdigest](https://github.com/welch/tdigest)
+ - JavaScript: [tdigest](https://github.com/welch/tdigest)
  - C++: [CPP TDigest](https://github.com/gpichot/cpp-tdigest), [FB's Folly Implementation (high performance)](https://github.com/facebook/folly/blob/master/folly/stats/TDigest.h)
  - Scala: need link!
- - C: [tdigestc (w/ bindings to Go, Java, Python, JS via wasm)](https://githb.com/ajwerner/tdigestc)
-
+ - C: [tdigestc (w/ bindings to Go, Java, Python, JS via wasm)](https://github.com/ajwerner/tdigestc)
+ - Clojure: [t-digest for Clojure](https://github.com/henrygarner/t-digest)
+ 
 Continuous Integration
 =================
 
@@ -231,14 +232,14 @@ travis update
 Installation
 ===============
 
-The t-Digest library Jars are released via [Maven Central Repository] (http://repo1.maven.org/maven2/com/tdunning/).
+The t-Digest library Jars are released via [Maven Central Repository](http://repo1.maven.org/maven2/com/tdunning/).
 The current version is 3.2.
 
  ```xml
       <dependency>
           <groupId>com.tdunning</groupId>
           <artifactId>t-digest</artifactId>
-          <version>3.1</version>
+          <version>3.2</version>
       </dependency>
  ```     
       
